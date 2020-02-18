@@ -12,7 +12,7 @@ namespace R5T.Visigothia.Local.Default
         /// <summary>
         /// Adds the <see cref="EnvironmentBasedUserProfileDirectoryPathProvider"/> implementation of <see cref="IUserProfileDirectoryPathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
         /// </summary>
-        public static IServiceCollection AddLocalDefaultUserProfileDirectoryPathProvider(this IServiceCollection services)
+        public static IServiceCollection AddEnvironmentBasedUserProfileDirectoryPathProvider(this IServiceCollection services)
         {
             services.AddSingleton<IUserProfileDirectoryPathProvider, EnvironmentBasedUserProfileDirectoryPathProvider>();
 
@@ -22,9 +22,9 @@ namespace R5T.Visigothia.Local.Default
         /// <summary>
         /// Adds the <see cref="EnvironmentBasedUserProfileDirectoryPathProvider"/> implementation of <see cref="IUserProfileDirectoryPathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
         /// </summary>
-        public static ServiceAction<IUserProfileDirectoryPathProvider> AddLocalDefaultUserProfileDirectoryPathProviderAction(this IServiceCollection services)
+        public static ServiceAction<IUserProfileDirectoryPathProvider> AddEnvironmentBasedUserProfileDirectoryPathProviderAction(this IServiceCollection services)
         {
-            var serviceAction = new ServiceAction<IUserProfileDirectoryPathProvider>(() => services.AddLocalDefaultUserProfileDirectoryPathProvider());
+            var serviceAction = new ServiceAction<IUserProfileDirectoryPathProvider>(() => services.AddEnvironmentBasedUserProfileDirectoryPathProvider());
             return serviceAction;
         }
     }
