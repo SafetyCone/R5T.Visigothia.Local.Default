@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Visigothia.Local.Defaul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Visigothia.Local.Default.Testing", "R5T.Visigothia.Local.Default.Testing\R5T.Visigothia.Local.Default.Testing.csproj", "{3B0C393D-3490-4EDF-B286-28EA87529BF5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{7F6E4B1C-7EAA-42BB-B743-0EEB0F104347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{40967C0C-95B8-4027-AE53-F6A42996E525}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{3B0C393D-3490-4EDF-B286-28EA87529BF5}.Release|x64.Build.0 = Release|Any CPU
 		{3B0C393D-3490-4EDF-B286-28EA87529BF5}.Release|x86.ActiveCfg = Release|Any CPU
 		{3B0C393D-3490-4EDF-B286-28EA87529BF5}.Release|x86.Build.0 = Release|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Debug|x64.Build.0 = Debug|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Debug|x86.Build.0 = Debug|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Release|x64.ActiveCfg = Release|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Release|x64.Build.0 = Release|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Release|x86.ActiveCfg = Release|Any CPU
+		{40967C0C-95B8-4027-AE53-F6A42996E525}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40967C0C-95B8-4027-AE53-F6A42996E525} = {7F6E4B1C-7EAA-42BB-B743-0EEB0F104347}
 	EndGlobalSection
 EndGlobal
